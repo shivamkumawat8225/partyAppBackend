@@ -35,10 +35,8 @@ app.get("/", (request, response) => {
 });
 app.use("/uploads", express.static("./uploads"));
 
-const uri =
-  "mongodb+srv://shivamkumawat555:Shivam8225@cluster0.ux79kv9.mongodb.net/partyapp?retryWrites=true&w=majority&appName=Cluster0";
-// const uri = "mongodb://127.0.0.1:27017/authentication";
-// 3) MONGO DB CONNECTION
+const uri = "";
+3) MONGO DB CONNECTION
 mongoose
   .connect(uri)
   .then(() => console.log("Connected to MongoDb"))
