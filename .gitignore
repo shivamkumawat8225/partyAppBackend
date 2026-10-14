@@ -1,0 +1,8 @@
+node_modules
+.env
+fcmServiceAccountKey.json
+firebaseConfig.js
+uplifted-module-451709-k5-e98c66cf69a2.json
+aws-config.js
+test-175df-b7b74e720149.json
+openai-config.js
